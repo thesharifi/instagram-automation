@@ -1,0 +1,26 @@
+{
+  "name": "instagram_automation",
+  "version": "1.0.0",
+  "description": "instagram automation practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/wdio wdio.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/thesharifi/instagram-automation.git"
+  },
+  "author": "Maruf Sharifi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thesharifi/instagram-automation/issues"
+  },
+  "homepage": "https://github.com/thesharifi/instagram-automation#readme",
+  "dependencies": {
+    "appium": "^2.2.1"
+  },
+  "devDependencies": {
+    "@wdio/cli": "^8.20.5",
+    "webdriverio": "^8.20.4"
+  }
+}
